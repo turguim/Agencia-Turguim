@@ -6,6 +6,7 @@ function ajustarContainer(){
     container.style.marginTop = '0';
   } else if(window.innerWidth  >700 && window.innerWidth <=1200){
         container.style.width = '70%'
+        
   }else{
         container.style.width = '40%'
   }
