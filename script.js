@@ -1,5 +1,6 @@
 function ajustarContainer(){
   const container = document.getElementById('container');
+  const itens = document.querySelectorAll('.item');
 
   if (window.innerWidth <= 700) {
     container.style.width = '100%'
@@ -8,8 +9,9 @@ function ajustarContainer(){
         container.style.width = '70%'
         
   }else{
-        container.style.width = '40%'
-  }
+        container.style.width = '40%';
+      }
 }
+
 window.addEventListener('load', ajustarContainer);
 window.addEventListener('resize', ajustarContainer);
